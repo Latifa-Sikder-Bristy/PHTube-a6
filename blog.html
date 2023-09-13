@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <!-- link daisyUI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css">
+    <!-- link Tailwind CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!--        Nav Section      -->
+    <section class="navContainer mt-5 ml-20 mr-20">
+        <div class="navLogoContainer flex flex-col sm:flex-row justify-between items-center mt-2 mb-5 gap-2 ">
+            <div class="navIcon">
+                <a href="./index.html"><img src="./assets/Logo.png" alt=""></a>
+            </div>
+            <div class="blog">
+                <button onclick="window.location.href='../blog.html'"
+                    class="base-content bg-red-500 text-white p-2 hover:bg-slate-200 hover:text-black">Blog</button>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+    </section>
+
+
+    <article class="w-1/2 m-auto mt-20">
+        <h2 class="font-semibold">Q1. Discuss the scope of <span class="bg-slate-200 p-2 rounded">var</span>, <span
+                class="bg-slate-200 p-2 rounded">let</span>, and <span class="bg-slate-200 p-2 rounded">const</span>
+        </h2>
+        <p class=" mt-5 justify-content-between">The scope of a variable in JavaScript determines where the
+            variable can be accessed in the code.<br>
+
+            <span class="font-semibold">var</span> variables have a function scope, which means that they can be
+            accessed
+            within the function in which they
+            are declared, and in any nested functions.
+            <br><span class="font-semibold">let</span> variables have a block scope, which means that they can only be
+            accessed within the block in which they
+            are declared.
+            <br><span class="font-semibold">const</span> variables also have a block scope, but they cannot be
+            reassigned
+            once they are initialized.
+        </p>
+        <div>
+        </div>
+    </article>
+    <article class="w-1/2 m-auto mt-10">
+        <h2 class="font-semibold">Q2. Tell us the use cases of <span class="bg-slate-200 p-2 rounded">null</span> and
+            <span class="bg-slate-200 p-2 rounded">undefined</span>
+        </h2>
+        <p class=" mt-5 justify-content-between">The use cases of null and undefined in JavaScript are:<br>
+
+            <span class="font-semibold">Null</span> is used to represent the absence of a value, while <span
+                class="font-semibold">undefined</span> is
+            used to represent the absence of a value that has been declared.
+        </p>
+        <div>
+        </div>
+    </article>
+    <article class="w-1/2 m-auto mt-10 mb-40">
+        <h2 class="font-semibold">Q3. What do you mean by REST API?
+        </h2>
+        <p class=" mt-5 justify-content-between">REST API stands for Representational State Transfer Application
+            Programming Interface. It is an architectural style for designing web services. REST APIs are based on the
+            HTTP protocol and use standard HTTP methods to perform operations on resources.<br><br>
+            The most common HTTP methods used in REST APIs are:
+        <ul class="mt-2">
+            <li>
+                <span class="font-semibold">Get: </span>
+                <p class="inline">Used to retrieve a resource.</p>
+            </li>
+            <li>
+                <span class="font-semibold">POST: </span>
+                <p class="inline">Used to create a new resource.</p>
+            </li>
+            <li>
+                <span class="font-semibold">PUT: </span>
+                <p class="inline">Used to update an existing resource.</p>
+            </li>
+            <li>
+                <span class="font-semibold">DELETE: </span>
+                <p class="inline">Used to delete a resource.</p>
+            </li>
+        </ul>
+        </p>
+        <div>
+        </div>
+    </article>
+</body>
+
+</html>
